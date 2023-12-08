@@ -1,0 +1,135 @@
+/* AddSongPopup.css */
+.add-song-popup {
+    /* background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+    z-index: 99; */
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  .popup-content {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 500px;
+    height: 400px;
+    max-width: 500px;
+    max-height: 400px;
+    text-align: center;
+  }
+
+  .addsong-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+  }
+  
+  .close-popup {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8px;
+  }
+  
+  .form-group {
+    text-align: left;
+    margin-bottom: 15px;
+    padding-right: 10px;
+  }
+
+  .popup-text{
+    padding-bottom: 5px;
+  }
+
+  .popup-input{
+    padding: 5px;
+    border-color: #D7D7D7;
+    color: black;
+    outline: none;
+  }
+  
+  .thumbnail-preview {
+    margin-top: 15px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  label {
+    cursor: pointer;
+    color: rgb(6, 6, 6);
+  }
+  
+  .profile-thumbnail-uploader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .preview {
+    margin-top: 20px;
+    max-width: 200px;
+  }
+
+  .indian-flag {
+    padding-left: 5px;
+    /* padding-top: 20px; */
+    width: 40px; /* Adjust the size of the flag image */
+    height: 40px;
+    margin-right: 5px; /* Adjust the spacing between flag and code */
+  }
+.submit-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+  .upload-icon{
+    padding-left: 5px;
+    width: 24px; /* Adjust the size of the flag image */
+    height: 16px;
+    margin-right: 5px;
+  }
+
+  .thumbnail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+  }
+
+  .cancel-btn{
+    margin-right: 10px;
+  }
+
+  .uploadbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

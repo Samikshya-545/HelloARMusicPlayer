@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+.sigin-text{
+  color: #552583;
+}
+  
+  .signin-container {
+    width: 75%;
+    /* width: 20%;
+    height: 20%; */
+    text-align: left;
+  }
+  
+  /* .input-container {
+    margin-bottom: 20px;
+  } */
+
+  .sigin-input{
+    /* width: 250px;  */
+    height: 40px; /* Set the desired height */
+    padding: 8px;
+    box-sizing: border-box;
+    outline-color: #552583;
+    outline-style: none;
+    /* border-radius: 3px; */
+  }
+  .sigin-para{
+    font-size: x-small;
+    font-weight: 400;
+  }
+  
+  /* input {
+    width: 200px; 
+    height: 40px; 
+    padding: 8px;
+    box-sizing: border-box;
+  } */
+  
+  .signin-btn {
+    width: -webkit-fill-available;
+    /* width: 250px;  */
+    height: 40px; 
+    background-color: #552583;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  .signin-btn:hover {
+    background-color: #552583;
+  }
+
+  .sigin-phn-input{
+    /* border: none; */
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .sigin-input{
+    border: none;
+    color: black;
+    font-weight: 50;
+  }
+  .phone-input-container {
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #ECEDED;
+    box-shadow: #ECEDED;
+    border-radius: 5px;
+    height: 40px;
+  }
+  
+  .input-container {
+    width: inherit;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .flag-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flag-and-code {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 0 5px; /* Adjust padding as needed */
+  }
+  
+  /* Styling for the flag image */
+  .indian-flag {
+    padding-left: 5px;
+    width: 24px; /* Adjust the size of the flag image */
+    height: 16px;
+    margin-right: 5px; /* Adjust the spacing between flag and code */
+  }
+  
+  .loadingScreen{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0,0,0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 99;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+  }
+  /* Additional styling for the input field */
+  

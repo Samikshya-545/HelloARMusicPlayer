@@ -1,0 +1,43 @@
+/* OtpVerification.css */
+.otp-container {
+  width: 73%;
+    text-align: left;
+    /* margin-top: 50px; */
+  }
+
+  .otp-input:not(:first-child) {
+    margin: 0 8px;
+  }
+
+  .otp-input:first-child {
+    margin-right: 8px;
+  }
+  
+  .otp-input {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .otp-verify-text{
+    color: #552583;
+  }
+
+  .otp-verify-para{
+    font-size: x-small;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+
+  .otp-verify-btn{
+    width: -webkit-fill-available;
+    margin-top: 20px;
+    /* width: 250px;  */
+    height: 40px; 
+    background-color: #552583;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
